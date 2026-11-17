@@ -1,0 +1,147 @@
+{
+  "title": "Gestione corsi di formazione",
+  "description": "Catalogo interno per consultare i corsi, verificare disponibilità e inserire nuove sessioni formative.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Riepilogo delle sessioni formative e dei posti disponibili.",
+      "metrics": [
+        {
+          "label": "Corsi attivi",
+          "value": "12"
+        },
+        {
+          "label": "Prossime sessioni",
+          "value": "5"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "86"
+        },
+        {
+          "label": "Iscrizioni confermate",
+          "value": "74"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Comunicazione chiara",
+          "Lumo Verri",
+          "12/06/2025",
+          "8"
+        ],
+        [
+          "Strumenti digitali quotidiani",
+          "Vela Neri",
+          "18/06/2025",
+          "14"
+        ],
+        [
+          "Organizzare il lavoro",
+          "Nubi Sarti",
+          "24/06/2025",
+          "6"
+        ],
+        [
+          "Scrittura efficace",
+          "Rivo Tami",
+          "02/07/2025",
+          "11"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Cerca e filtra le sessioni per corso, docente e data; le colonne costituiscono i filtri della tabella.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Posti totali",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Comunicazione chiara",
+          "Lumo Verri",
+          "12/06/2025",
+          "8",
+          "20",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Strumenti digitali quotidiani",
+          "Vela Neri",
+          "18/06/2025",
+          "14",
+          "18",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Organizzare il lavoro",
+          "Nubi Sarti",
+          "24/06/2025",
+          "6",
+          "16",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Scrittura efficace",
+          "Rivo Tami",
+          "02/07/2025",
+          "11",
+          "15",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Introduzione ai dati",
+          "Mira Soli",
+          "09/07/2025",
+          "0",
+          "12",
+          "Completo"
+        ],
+        [
+          "Collaborazione efficace",
+          "Taro Leni",
+          "16/07/2025",
+          "9",
+          "14",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-sessione",
+      "title": "Nuova sessione",
+      "description": "Registra una nuova sessione formativa nel catalogo.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili"
+      ],
+      "rows": [],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili"
+      ]
+    }
+  ]
+}
